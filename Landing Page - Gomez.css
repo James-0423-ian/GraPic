@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  background-image: url('48037.jpg');
+  background-size: cover;
+}
+
+.navbar {
+  background-color: darkorange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-circles span {
+  display: inline-block; 
+  height: 20px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 3px;
+}
+
+.icons span {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  justify-items: right;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 63px;
+  gap: 40px;
+  align-items: center;
+}
+
+.left-content {
+  max-width: 50%;
+}
+
+.left-content h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #090548;
+  font-weight: 1000px;
+}
+
+.left-content h3 {
+  margin: 10px 0 20px;
+  color: #ea9019;
+}
+
+.left-content p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.dots {
+  margin-bottom: 20px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #0d0765;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dot.active {
+  background-color: #e59328;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background-color: rgb(233, 127, 34);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: white;
+  color: rgb(7, 5, 80);
+  padding: 12px 24px;
+  border: 2px solid rgb(16, 4, 95);
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right-card {
+  background-color: #ffffff;
+  width: 450px;
+  height: 450px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-right: 80px;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ce7e05;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+}
+.site-nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+.site-nav {
+  display: flex;
+  gap: 1rem;
+}
+.site-footer {
+  background: #09004d;
+  color: #ccc;
+  text-align: center;
+  padding: .5rem 5px;
+  margin-top: 50px;
+}
