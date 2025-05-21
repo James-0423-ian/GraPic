@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background-image: url('Grapic\ Pattern.jpg');
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+header p {
+  color: #777;
+}
+
+/* Newsfeed Layout */
+.newsfeed {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Blog Post Card */
+.post-card {
+  background-color: #d68514;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-content h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.post-summary {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.site-footer {
+  background: #09004d;
+  color: #ccc;
+  text-align: center;
+  padding: .5rem 5px;
+
+}
